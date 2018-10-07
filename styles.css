@@ -1,0 +1,123 @@
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #b1c6c9;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    border-bottom: #c2d8db 1px;
+    
+}
+.logo {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.logo .name {
+    padding-top: 10px;
+    flex: 2;
+    font-size: xx-large;
+}
+.logo .alert {
+    flex: 1;
+    margin-bottom: 10px;
+}
+header nav {
+    list-style: none;   
+    display: flex;
+    align-items: center;
+}
+header nav li {
+    margin-right: 15px;
+}
+
+.main-and-sidebar-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 2000px;
+}
+.main{
+    background-image: url(./content/backgr_rocks.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.main div {
+    flex: 1;
+}
+.flags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2em; 
+    align-items: center;
+}
+.flag
+{
+    display: flex;
+    flex-direction: column;
+}
+.flag .content {
+    flex: 1;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10%;
+}
+#flag-img
+{
+    flex: 2;
+}
+
+.flags > div {
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid gray; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin: 5%;
+   }
+.formsOfEducation{
+    background-color: gainsboro;
+    display: flex;
+    flex: 1;
+    justify-items: center;
+}
+.formsOfEducation div{
+    flex: 1;
+}
+.whyWe{
+    text-align: center;
+    background-color: #aec8c9;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.whyWe div{
+    flex: 1;
+    background-size: cover;
+}
+
+.reviews{
+    background-color:pink;
+    display: flex;
+    flex: 2;
+}
+.map{
+    flex: 1;
+    background-color: rgb(0, 238, 255);
+    display: flex;
+}
+   
