@@ -3,7 +3,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
 header {
     font-family: 'Merriweather', serif;
     background-color: #b1c6c9;
@@ -35,7 +34,6 @@ header nav {
 header nav li {
     margin-right: 15px;
 }
-
 .main-and-sidebar-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +41,7 @@ header nav li {
     height: 2000px;
 }
 .main{
-    background-image: url(./content/backgr_rocks.jpg);
+    background-image: url(./content/backgr_rocks1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -55,6 +53,7 @@ header nav li {
 .flags {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 2em; 
     align-items: center;
@@ -67,15 +66,32 @@ header nav li {
 .flag .content {
     flex: 1;
     align-content: center;
+    text-align: center;
+}
+.flag .img-content{
+    width: 10em;
+    text-align: center;
+    flex: 4;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    padding: 10%;
-}
-#flag-img
-{
-    flex: 2;
-}
+} 
+
+
+.myButton {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #666 #000 #666;
+    border-radius: 10%;
+    background: linear-gradient(#666, #669) #000;
+    transition: 0.2s;
+  } 
+  a.myButton:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+  a.myButton:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 
 .flags > div {
     justify-content: center;
@@ -89,7 +105,7 @@ header nav li {
     box-shadow: 0 0 7px #666; /* Параметры тени */
     margin: 5%;
    }
-.formsOfEducation{
+.education{
     background-color: gainsboro;
     display: flex;
     flex: 1;
@@ -108,6 +124,9 @@ header nav li {
 .whyWe div{
     flex: 1;
     background-size: cover;
+}
+.whyWe li {
+    margin-bottom: 10%;
 }
 
 .reviews{
